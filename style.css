@@ -1,0 +1,36 @@
+body{
+    background: url("abc.jpg");
+    background-size: cover;
+}
+.hbox{
+    width:100%;
+    font-size:30px;
+    margin:0;
+}
+.hbox span{
+    font-size: 18px;
+}
+.div_speed{
+    float:right;
+    margin:10px;
+}
+.cd_img{
+    width:200px;
+    border-radius:100px;
+}
+.div_volume{
+    float:left;
+    margin:10px;
+}
+#speed,#volume{
+    font-size: 23px;
+}
+#play_music,#stop_music{
+    margin:10px;
+    border-radius:10px;
+}
+canvas{
+    border:5px dotted green;
+    border-radius: 20px;
+    margin-top:50px;
+}
